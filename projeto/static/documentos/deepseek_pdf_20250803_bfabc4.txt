@@ -1,0 +1,196 @@
+%PDF-1.7
+1 0 obj
+<<
+/Title (Serviços e Funcionalidades - Grupo Andrade)
+/Creator (Jasmine AI)
+/Producer (Python PDF Library)
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Pages
+/Kids [4 0 R 5 0 R]
+/Count 2
+>>
+endobj
+
+4 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Contents 6 0 R
+/Resources <<
+/Font <<
+/F1 7 0 R
+>>
+>>
+/MediaBox [0 0 612 792]
+>>
+endobj
+
+5 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Contents 8 0 R
+/Resources <<
+/Font <<
+/F1 7 0 R
+>>
+>>
+/MediaBox [0 0 612 792]
+>>
+endobj
+
+6 0 obj
+<<
+/Length 1000
+>>
+stream
+BT
+/F1 24 Tf
+100 700 Td
+(SERVIÇOS OFERECIDOS - GRUPO ANDRADE) Tj
+ET
+
+BT
+/F1 18 Tf
+100 650 Td
+(1. Emplacamento Veicular) Tj
+ET
+
+BT
+/F1 12 Tf
+100 620 Td
+- Cadastro completo de placas (CRLV, Renavan, endereço) Tj
+100 600 Td
+- Acompanhamento em tempo real do status (Confeccionada/A Caminho/Recebida) Tj
+100 580 Td
+- Histórico completo de todas as solicitações Tj
+
+BT
+/F1 18 Tf
+100 520 Td
+(2. Consultas de Placas) Tj
+ET
+BT
+/F1 12 Tf
+100 490 Td
+- Busca por número de placa em todo o sistema Tj
+100 470 Td
+- Visualização detalhada de cada processo Tj
+100 450 Td
+- Filtros por data e status Tj
+
+BT
+/F1 18 Tf
+100 390 Td
+(3. Pagamentos Integrados) Tj
+ET
+BT
+/F1 12 Tf
+100 360 Td
+- Relatórios mensais automatizados Tj
+100 340 Td
+- Pagamento via Mercado Pago com notificação instantânea Tj
+100 320 Td
+- Histórico financeiro completo Tj
+endstream
+endobj
+
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+8 0 obj
+<<
+/Length 1200
+>>
+stream
+BT
+/F1 24 Tf
+100 700 Td
+(FUNCIONALIDADES DO SISTEMA) Tj
+ET
+
+BT
+/F1 18 Tf
+100 650 Td
+(1. Autenticação Segura) Tj
+ET
+BT
+/F1 12 Tf
+100 620 Td
+- Cadastro com verificação de e-mail Tj
+100 600 Td
+- Recuperação de senha por token seguro Tj
+100 580 Td
+- Controle de sessões ativas Tj
+
+BT
+/F1 18 Tf
+100 520 Td
+(2. Suporte com IA) Tj
+ET
+BT
+/F1 12 Tf
+100 490 Td
+- Chatbot Jasmine para dúvidas instantâneas Tj
+100 470 Td
+- Respostas baseadas no manual de serviços Tj
+100 450 Td
+- Sugestão de perguntas relacionadas Tj
+
+BT
+/F1 18 Tf
+100 390 Td
+(3. Gerenciamento Administrativo) Tj
+ET
+BT
+/F1 12 Tf
+100 360 Td
+- Painel de controle de todos os usuários Tj
+100 340 Td
+- Edição de status de placas (somente admin) Tj
+100 320 Td
+- Exportação de relatórios em PDF Tj
+
+BT
+/F1 14 Tf
+100 250 Td
+(Contato: contato@grupoandrade.com | (11) 9999-9999) Tj
+ET
+endstream
+endobj
+
+xref
+0 9
+0000000000 65535 f
+0000000015 00000 n
+0000000077 00000 n
+0000000128 00000 n
+0000000223 00000 n
+0000000375 00000 n
+0000001476 00000 n
+0000002687 00000 n
+0000003900 00000 n
+trailer
+<<
+/Size 9
+/Root 2 0 R
+>>
+startxref
+4000
+%%EOF
