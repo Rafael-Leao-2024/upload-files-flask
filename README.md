@@ -18,5 +18,7 @@ Um sistema simples para upload e download de documentos em PDF desenvolvido com 
 ## Instalação
 
 1. Clone o repositório:
+
 ```bash
-git clone [URL_DO_REPOSITORIO]
+git clone https://github.com/Rafael-Leao-2024/upload-files-flask.git
+```
