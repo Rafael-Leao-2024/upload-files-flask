@@ -1,12 +1,14 @@
 {% extends "layout.html" %} {% block content %}
 <div class="container py-8 animate-fadeIn">
   <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
-    <h2 class="text-2xl font-bold mb-6 text-center">Documentos Disponíveis</h2>
+    <h2 class="text-2xl font-bold mb-6 text-center text-secondary">
+      Documentos Disponíveis
+    </h2>
 
     {% if files %}
     <div class="space-y-3">
       {% for file in files %}
-      <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md">
+      <div class="flex items-center justify-between p-3 bg-gray-100 rounded-md">
         <span class="text-gray-700">{{ file }}</span>
         <a
           href="{{ url_for('documentos.download_file', name=file) }}"
