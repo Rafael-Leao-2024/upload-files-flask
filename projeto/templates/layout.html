@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grupo Andrade - {% block title %}{% endblock %}</title>
+    <title>Grupo Andrade - {% block title %} {{ title }} {% endblock %}</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -84,6 +84,30 @@
         <p>&copy; 2023 Grupo Andrade. Todos os direitos reservados.</p>
       </div>
     </footer>
+
+    <script>
+      function uploadFiles() {
+        const files = document.getElementById('file-input').files;
+        const formData = new FormData();
+
+        for (let i = 0; i < files.length; i++) {
+          formData.append('file', files[i]);
+        }
+
+        fetch('/upload-ajax', {
+          method: 'POST',
+          body: formData,
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            data.results.forEach((result) => {
+              const div = document.createElement('div');
+              div.textContent = `${result.name}: ${result.status}`;
+              document.getElementById('progress').appendChild(div);
+            });
+          });
+      }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"

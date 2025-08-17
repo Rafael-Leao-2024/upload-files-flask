@@ -16,6 +16,7 @@
         >Selecione varios arquivos PDF</label
       >
       <input
+        id="file-input"
         type="file"
         name="file"
         accept=".pdf"
@@ -54,29 +55,5 @@
   </div>
   {% endif %} {% endwith %}
 </div>
-
-<script>
-  function uploadFiles() {
-    const files = document.getElementById('file-input').files;
-    const formData = new FormData();
-
-    for (let i = 0; i < files.length; i++) {
-      formData.append('file', files[i]);
-    }
-
-    fetch('/upload-ajax', {
-      method: 'POST',
-      body: formData,
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        data.results.forEach((result) => {
-          const div = document.createElement('div');
-          div.textContent = `${result.name}: ${result.status}`;
-          document.getElementById('progress').appendChild(div);
-        });
-      });
-  }
-</script>
 
 {% endblock %}

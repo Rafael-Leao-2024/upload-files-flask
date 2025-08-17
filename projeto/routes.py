@@ -23,7 +23,7 @@ def download():
     for filename in os.listdir(current_app.config['UPLOAD_FOLDER']):
         if filename.endswith('.pdf'):
             files.append(filename)
-    return render_template('documentos/download.html', files=files)
+    return render_template('documentos/download.html', files=files, title="todos Downloads")
 
 @documentos_bp.route('/', methods=['GET', 'POST'])
 def upload_file():
@@ -39,7 +39,7 @@ def upload_file():
             filename = secure_filename(file.filename)
             file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
             return redirect(url_for('documentos.download'))
-    return render_template("documentos/upload.html")
+    return render_template("documentos/upload.html", title="uploads")
 
 @documentos_bp.route('/upload-ajax', methods=['GET', 'POST'])
 def upload_ajax():
@@ -57,4 +57,4 @@ def upload_ajax():
                 file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
         flash(message="arquivos armazenados com sucesso", category='success')
         return redirect(url_for('documentos.download'))           
-    return render_template('documentos/muitos_file.html')
+    return render_template('documentos/muitos_file.html', title="muitos uploads")
